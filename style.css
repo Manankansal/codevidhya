@@ -1,0 +1,100 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-left: 220px;
+    margin-top: 23px;
+    height: 60px;
+    margin-right: 320px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+nav button{
+    padding: 10px 20px;
+    color: rgb(197, 35, 89);
+    border: solid 2px rgb(197, 35, 89);
+    border-radius: 20px;
+}
+.firstPart{
+    margin-left: 220px;
+    font-size: 30px;
+    background-image: linear-gradient(65deg, rgb(92, 92, 218) , rgb(0, 181, 252));
+    background-size: 100%;
+    width: 1099px;
+    height: 400px;
+}
+.firstPart h1{
+    margin-bottom: -10px;
+}
+.firstPart p{
+    font-size: 25px;
+}
+.firstPart button{
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+.images_of_starting{
+    display: flex;
+    border-radius: 50px;
+}
+.text{
+    display: flex;
+}
+.thirdPart{
+    background-image: linear-gradient( 65deg , rgb(92, 92, 218) , rgb(0, 181, 252));
+}
+.thirdPart img{
+    width: 50%;
+    margin-left: 25%;
+}
+.fourthPart{
+    margin-left: 300px;
+}
+.images_of_courses{
+    display: flex;
+}
+#img1{
+    margin-right: 250px;
+    width: 8%;
+}
+#img2{
+    margin-right: 250px;
+    width: 8.5%;
+}
+#img3{
+    margin-right: 250px;
+    width: 10%;
+}
+#img4{
+    width: 12%;
+}
+.ageLimits{
+    display: flex;
+}
+.text_and_buttons h2{
+    margin-left: 17%;
+    margin-top: -19px;
+    width: 5.2%;
+    padding: 10px 13px;
+    background-color: white;
+}
